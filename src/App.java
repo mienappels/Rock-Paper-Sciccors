@@ -9,13 +9,7 @@ class Main{
         String pick = myObj.nextLine();
         pick.trim();
         Long PCpickL = (Math.round(Math.random() * 100));
-        //String PCpick=Long.toString(PCpickL);
         int PCpickI=PCpickL.intValue();
-        //System.out.println(PCpick + "String");
-        //System.out.println(PCpickI + "Integer");
-        //System.out.println(PCpick.equals("1"));
-        //System.out.println(PCpick.equals("2"));
-        //System.out.println(PCpick.equals("3"));
         if (PCpickI <= 33){
         System.out.println("I pick Rock.");
             if(pick.equals("Rock")){
